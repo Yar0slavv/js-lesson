@@ -37,6 +37,7 @@ delete options.bool; // удалить булиновое значение
 
 console.log(options);
 
+// for in
 for (let key in options) {
     console.log('Свойство '+ key + ' имеет значение ' + options[key]); // цикл перебора свойств объекта
 }
